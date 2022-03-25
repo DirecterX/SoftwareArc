@@ -18,7 +18,7 @@ public class XMLBookMetadataFormatter implements BookMetadataFormatter {
     private Document document;
     private Element rootElement;
 
-    public XMLBookMetadataFormatter() {
+    public XMLBookMetadataFormatter() throws ParserConfigurationException{
         reset();
     }
 
